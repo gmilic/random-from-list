@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random list picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="">
+    </div>
+    <div class="input">
+        <h2>Učesnici:</h2>
+        <textarea rows="20" cols="50" placeholder="Unesi listu učesnika" id="list"></textarea>
+        <h4>Broj nagrada</h4>
+        <input type="number" name="number-of" value="1" min="1" id="numbers">
+        <button id="buttonGo">START</button>
+    </div>
+    <hr>
+    <div class="output">
+        <h2>Dobitnici su:</h2>
+        <ul id="result">
+
+        </ul>
+    </div>
+    
+    <script src="random.js"></script>
+</body>
+</html>

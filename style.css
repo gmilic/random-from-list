@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea, input {
+    display: block;
+    margin: 0 auto;
+}
+
+#numbers {
+    width: 30px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 28px;
+}
+
+h4 {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo img {
+    width: 400px;
+}
